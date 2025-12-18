@@ -1,13 +1,8 @@
 # 🔐 CSRF Attack Demo - Interactive Learning Tool
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://your-demo.vercel.app)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38bdf8)](https://tailwindcss.com/)
-
 > An interactive, visual demonstration of CSRF (Cross-Site Request Forgery) attacks and how to prevent them. Perfect for learning, teaching, or understanding web security concepts.
 
-[**🚀 Live Demo**](https://your-demo.vercel.app) | [**📖 Blog Post**](link-to-your-blog)
+[**🚀 Live Demo**](https://your-demo.vercel.app)
 
 ![Demo Screenshot](https://via.placeholder.com/800x400?text=Add+Screenshot+Here)
 
@@ -68,10 +63,7 @@ The **double-submit cookie pattern**:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/csrf-demo.git
-
-# Navigate to the project
-cd csrf-demo
+git clone https://github.com/AsadurRahmanRishan59/CSRF-Attack-Demo---Interactive-Learning-Tool.git
 
 # Install dependencies
 npm install
@@ -82,21 +74,6 @@ npm run dev
 
 Visit `http://localhost:3000` and start exploring!
 
-## 📦 Deploy to Vercel
-
-The easiest way to deploy this demo:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/csrf-demo)
-
-Or manually:
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-```
 
 ## 🎓 How to Use
 
@@ -114,19 +91,6 @@ vercel
    - See what cookies and headers are sent
    - Understand why the attack succeeds or fails
 
-## 🏗️ Project Structure
-
-```
-csrf-demo/
-├── src/
-│   ├── components/
-│   │   └── CSRFDemo.jsx       # Main demo component
-│   ├── App.jsx                # App entry point
-│   └── index.css              # Tailwind styles
-├── public/
-├── package.json
-└── README.md
-```
 
 ## 🧠 Key Concepts Explained
 
@@ -177,43 +141,11 @@ if (cookieToken !== headerToken) {
 - ❌ Stateless APIs without cookies
 - ❌ Server-to-server communication
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Ideas for Contributions
-
-- [ ] Add more attack scenarios
-- [ ] Add SameSite cookie demonstration
-- [ ] Add XSS comparison demo
-- [ ] Add backend implementation examples
-- [ ] Improve mobile responsiveness
-- [ ] Add more languages/translations
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Inspired by real-world security challenges
-- Built to help developers understand CSRF attacks
-- Thanks to the web security community
 
 ## 👨‍💻 Author
 
-**Your Name**
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- Blog: [yourblog.com](https://yourblog.com)
+- GitHub: [@AsadurRahmanRishan59](https://github.com/AsadurRahmanRishan59)
+- LinkedIn: [Your Profile](https://linkedin.com/in/asadurrahmanrishan)
 
 ## ⭐ Show Your Support
 
